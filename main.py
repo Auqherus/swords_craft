@@ -17,7 +17,14 @@ def main():
     sword_1 = Sword("bronze")
     sword_2 = Sword("bronze")
 
-    new_sword = sword_1 + sword_2
-    print(new_sword)
+    sword_3 = Sword("iron")
+    sword_4 = Sword("iron")
+
+    new_sword_1 = sword_1 + sword_2
+    new_sword_2 = sword_3 + sword_4
+    #new_sword_3 = sword_2 + sword_3
+    print(new_sword_1)
+    print(new_sword_2)
+    #print(new_sword_3)
 
 main()
